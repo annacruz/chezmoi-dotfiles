@@ -1,0 +1,8 @@
+.vscode/*
+*.swp
+.tool-versions
+.DS_Store
+private/*
+aider/*
+.aider/*
+.aider*
