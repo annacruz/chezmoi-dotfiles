@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# trigger: {{ include "Brewfile" | sha256 }}
 set -euo pipefail
 
 # Ensure Homebrew exists
