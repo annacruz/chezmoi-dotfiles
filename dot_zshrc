@@ -9,7 +9,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
-ZSH_THEME="bira"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -124,8 +124,6 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
-export OPEN_ROUTER_API_KEY=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
 
 export PATH="$HOME/.local/bin:$PATH"
 #export PATH="$HOME/.local/share/mise/shims:$PATH"
