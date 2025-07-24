@@ -135,4 +135,4 @@ eval "$(mcfly init zsh)"
 
 alias aider_code="aider --watch-files --model openrouter/anthropic/claude-3.7-sonnet --editor-model openrouter/google/gemini-2.5-pro-preview-03-25 --architect --verbose"
 alias kubectl_clean_evicted="kubectl get pods | grep Evicted | awk '{print $1}' | xargs kubectl delete pod"
-
+alias unquarantine='xattr -d com.apple.quarantine'
